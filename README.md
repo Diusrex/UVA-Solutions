@@ -1,7 +1,7 @@
 UVA-Solutions
 =============
 
-My solutions to the UVA problems that I have solved successfuly. I have created all of the code myself.
+My solutions to the UVA problems that I have solved successfully. I have created all of the code myself.
 
 These are usually not the most optimal solutions, but they all are accepted within the given time limit.
 
