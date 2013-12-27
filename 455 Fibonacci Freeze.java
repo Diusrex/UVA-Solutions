@@ -18,6 +18,7 @@ class Main
         
         Scanner scanner = new Scanner(System.in);
         
+        
         while (scanner.hasNext()) {
             int num = scanner.nextInt();
             System.out.printf("The Fibonacci number for %d is %s\n", num, fib[num].toString());
