@@ -5,6 +5,7 @@ using namespace std;
 const int MaxC = 200010;
 int wordSize;
 string orig;
+// By not setting the even indicies, defaults to \0, which will never be in string!
 char word[MaxC];
 // Ensure is > 2 * MaxN.
 int P[MaxC];
@@ -47,10 +48,6 @@ bool LoadWord() {
 }
 
 int main() {
-    for (int i = 0; i < MaxC; i += 2) {
-        word[i] = '#'; // Some value that isn't in original string.
-    }
-    
     while (LoadWord()) {
         CalculateForAll();
         size_t minAdded = orig.size();
